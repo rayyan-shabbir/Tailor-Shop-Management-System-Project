@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 140px;
+    padding-bottom: 0px;
+    color: black;
+}
+
+.heading h1 {
+    color: rgb(2, 2, 2);
+    font-size: 70px;
+    margin: 0;
+    padding-left: 600px;
+}
+
+.heading button {
+    color: purple;
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    background: none;
+}
+
+.heading button:hover {
+    color: black;
+}
+
+.content {
+    margin-top: 0px;
+}
+
+section {
+    padding: 100px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+#place-order-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 34px;
+    color: rgb(255, 252, 255);
+    border: none;
+    background-color: rgb(69, 7, 7);
+    cursor: pointer;
+    width: 250px; /* Set a fixed width */
+    text-align: center; /* Ensure the text is centered */
+    margin-left: 700px;
+}
+
+
+#place-order-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}

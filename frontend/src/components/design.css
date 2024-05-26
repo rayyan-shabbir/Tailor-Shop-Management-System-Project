@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.heading h1 {
+    color: rgb(134, 29, 29);
+    font-size: 40px;
+    margin: 0;
+}
+
+.heading button {
+    color: rgb(111, 20, 32);
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    background: none;
+}
+
+.heading button:hover {
+    color: black;
+}
+
+.content {
+    margin-top: 0px; /* To avoid content being hidden behind the fixed navbar */
+}
+
+section {
+    padding-top: 20px;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+p {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+img {
+    width: 800px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+#design_form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#pic {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-container {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input, select, textarea, button {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input, select, textarea {
+    width: 140%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 210px; /* Custom height */
+}
+
+button {
+    width: 140%; /* or specify a fixed width */
+    background-color: rgb(109, 29, 33);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(109, 29, 33);
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-container img {
+    width: 100%;
+    margin-left: 0;
+    height: 400px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay-text h1 {
+    font-size: 4em;
+    margin: 0;
+    color: rgb(122, 34, 34);
+}
